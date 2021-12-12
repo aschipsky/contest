@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+body {
+    background-color: #9b868646;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: rgb(179, 255, 0);
+    text-decoration: mone;
+    outline: 0;
+}
+
+
+/** Header start **/
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(110, 27, 27);
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+    margin-block: 15px;
+}
+
+.navbar-dark .navbar-brand {
+    color: rgb(0, 0, 0);
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    height: 70px;
+    padding-top: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+
+
+
+.navbar-nav .dropdown-menu {
+    left: -120px;
+}
+
+
+.header-home {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/паравила.jpg);
+    background-size: cover;
+    position: relative;
+    mix-blend-mode: lighten;
+}
+
+.rules {
+    margin-bottom: 50px;
+}
+
+.rules-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.rules-photo {
+    text-align: center;
+}
+
+
+
+
+/** foter start **/
+
+.footer {
+    padding: 50px 0;
+    background: #100E24;
+}
+
+.footer-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.footer-menu li {
+    margin: 0 20px;
+}
+
+.footer-left {
+    padding: 30px;
+}
+
+.footer-title {
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+/** foter end **/
